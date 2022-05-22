@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Facebook - Log in or sign up </title>
+  </head>
+  <body>
+    <div class="container-fluid content">
+      <div class="row">
+        <div class="col-xs-7 text-column">
+          <h1>facebook</h1>
+          <h4>
+            Facebook helps you connect and share with the people in your life.
+          </h4>
+        </div>
+        <div class="col-xs-5 form-column">
+          <div class="card card-1">
+            <div class="card-body">
+              <input
+                class="form-control form-field-1"
+                type="text"
+                placeholder="Email address or phone number"
+              />
+              <input
+                class="form-control form-field-2"
+                type="text"
+                placeholder="Password"
+              />
+              <button
+                type="button"
+                class="btn btn-primary btn-lg btn-block login-button"
+              >
+                Log In
+              </button>
+              <a href="account.html">Forgotten password?</a>
+              <hr />
+              <button
+                type="button"
+                class="btn btn-lg signup-button"
+                data-toggle="modal"
+                data-target="#mymodal"
+              >
+                Create New Account
+              </button>
+            </div>
+          </div>
+          <div class="bottom-text">
+            <p>
+              <b> <a href="#">Create a Page</a> </b> for a celebrity, brand or
+              business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="mymodal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h2 >Sign Up</h2>
+              <p>It's quick and easy.</p>
+
+            </div>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input
+                    type="name"
+                    placeholder="First Name"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="name"
+                    placeholder="Surname"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  placeholder="Mobile number or email address"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  placeholder="New Password"
+                  class="form-control"
+                />
+              </div>
+              <p class="dob">Date of birth</p>
+              <div class="form-row">
+                <div class="form-group col-md-4">
+                  <select id="inputState" class="form-control">
+                    <option selected>15</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-4">
+                  <select
+                    id="inputState"
+                    class="form-control"
+                  >
+                    <option selected>May</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-4">
+                  <select
+                    id="inputState"
+                    class="form-control"
+                  >
+                    <option selected>2022</option>
+                    <option>...</option>
+                  </select>
+                </div>
+              </div>
+              <p class="gender">Gender</p>
+              <div class="form-row radio-set">
+                <div class="form-check ">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Female
+                  </label>
+                </div>
+                <div class="form-check ">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check ">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                    Custom
+                  </label>
+                </div>
+              </div>
+            </form>
+            <p class="terms">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+          </div>
+          <div class="mdl-footer">
+            <button type="button" class="btn btn-block signup-btn">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="">
+      <footer class="text-center text-white" style="background-color: #0a4275">
+        <div class="container p-4 pb-0">
+          <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+              <span class="me-3">Register for free</span>
+              <button type="button" class="btn btn-outline-light btn-rounded">
+                Sign up!
+              </button>
+            </p>
+          </section>
+        </div>
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/"
+            >MDBootstrap.com</a
+          >
+        </div>
+      </footer>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

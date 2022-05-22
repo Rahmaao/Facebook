@@ -1,0 +1,160 @@
+.content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #F0F2F5;
+}
+
+.text-column{
+    padding-top: 90px;
+    padding-left: 160px;
+}
+
+.text-column h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1e21;
+    font-size: 60px;
+    font-weight: 700;
+    color: #1877F2;
+    letter-spacing: -4px;
+    
+
+}
+
+.text-column h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1e21;
+
+}
+
+
+.form-field-1{
+    height: 52px;
+    margin-top: 8px;
+    padding-left: 5px;
+    /* background-color: aqua; */
+    
+}
+
+.form-field-1::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    /* color: #1d2129; */
+    
+}
+
+.form-field-2{
+    height: 52px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 0px;
+    padding-left: 5px;
+    /* background-color: aqua; */
+    
+}
+
+.form-field-2::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    /* color: #1d2129; */
+    
+}
+
+.login-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+    /* line-height: 48px; */
+
+}
+
+
+
+.signup-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: #36A420;
+    /* line-height: 48px; */
+
+}
+
+.form-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 140px;
+}
+
+.form-column p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #1c1e21;
+    
+    
+}
+.card a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+
+}
+
+.bottom-text a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    font-size: 13px;
+    color: #1c1e21;
+    
+
+
+}
+
+.card{
+    width: 400px;
+    margin-bottom: 12px;    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    width: 320px;
+}
+
+
+
+@media (min-width: 390px) and (max-width: 520px) {
+    .text-column{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .form-column{
+        padding-left: 0px;
+    }
+    
+    }
